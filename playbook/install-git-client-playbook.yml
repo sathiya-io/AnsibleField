@@ -1,0 +1,6 @@
+---
+- name: Install git client
+  hosts: localhost
+  become: yes
+  roles:
+    - install-git-client

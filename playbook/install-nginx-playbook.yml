@@ -1,0 +1,7 @@
+---
+- name: Install and run Nginx
+  hosts: localhost
+  become: yes
+
+  roles:
+    - install-nginx

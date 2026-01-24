@@ -1,0 +1,5 @@
+---
+# vars file for install-nginx
+port: 8080
+access_log: /etc/nginx/access.log
+hostname: ubuntu
